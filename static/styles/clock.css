@@ -1,0 +1,10 @@
+body{
+    background:url("../styles/clock.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 900px;
+    text-align: center;
+    color: white;
+}
+h1{
+    color: white;
+}

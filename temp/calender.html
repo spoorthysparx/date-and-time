@@ -1,0 +1,46 @@
+<html lang='en'>
+    <head>
+		<title>DATE AND TIME</title>
+		<meta charset='UFT-8' name='viewport' content='width=device-width, initial=scale=1.0' >
+		<link rel='stylesheet' type='text/css' href='../static/styles/calender.css'>
+        <script type='text/javascript' src='../static/calender.js'></script>
+        <script src="../static/jquery-3.6.0.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+<div class="calendar" id="calendar">
+    <div class="calendar-btn month-btn" onclick="$('#months').toggle('fast')">
+        <span id="curMonth"></span>
+        <div id="months" class="months dropdown"></div>
+    </div>
+
+    <div class="calendar-btn year-btn" onclick="$('#years').toggle('fast')">
+        <span id="curYear"></span>
+        <div id="years" class="years dropdown"></div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="calendar-dates">
+        <div class="days">
+            <div class="day label">SUN</div>
+            <div class="day label">MON</div>
+            <div class="day label">TUE</div>
+            <div class="day label">WED</div>
+            <div class="day label">THURS</div>
+            <div class="day label">FRI</div>
+            <div class="day label">SAT</div>
+
+            <div class="clear"></div>
+        </div>
+
+        <div id="calendarDays" class="days">
+        </div>
+    </div>
+    <div class="back">
+        <a class="btn btn-secondary" role = "button" href="{{ url_for('front') }}">back</a></div>        
+</div>
+</body>
+</html>

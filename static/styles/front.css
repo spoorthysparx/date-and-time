@@ -1,0 +1,10 @@
+body{
+    background:url("../styles/front.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 1200px;
+    text-align: center;
+    color: black;
+}
+h1{
+    color: black;
+}

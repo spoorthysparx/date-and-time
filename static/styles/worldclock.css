@@ -1,0 +1,16 @@
+body{
+    background:url("../styles/worldclock.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 900px;
+    text-align: center;
+    font-size: 72px;
+    color: white;
+}
+#time{
+    color: blanchedalmond;
+    font-size: 72px;
+    text-align: center;
+}
+h1{
+    color: blanchedalmond;
+}

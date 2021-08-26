@@ -1,0 +1,12 @@
+#display{
+    font-size:72px;
+}
+.col-md-6{
+    text-align: center;
+}
+body{
+    text-align: center;
+    background:url("../styles/stopwatch.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 1200px;
+}
